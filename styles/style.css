@@ -77,7 +77,7 @@ header{
 
 /* main */
 
-main{
+main,footer{
     max-width: 1440px;
     margin: 0 auto;
 
@@ -135,6 +135,29 @@ main{
     font-weight: 600;
     color: #727272;
 }
+/* sponcer*/
+.title{
+    max-width:540px ;
+    margin: 150px auto 40px;
+    text-align: center;
+}
+.sponcer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.sponcer img{
+    filter: grayscale(100%);
+}
+/*footer*/
+footer{
+    background-color: #FFF4E7;
+    height: 100px;
+    margin: 70px auto 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
 
 /* header response */
 @media screen and (max-width:576px) {
@@ -158,6 +181,9 @@ main{
 }
 main{
     max-width: 100%;
+}
+.cards{
+    flex-direction: column;
 }
 }
 
