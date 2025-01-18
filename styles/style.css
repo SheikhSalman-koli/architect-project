@@ -45,7 +45,6 @@ header{
     font-size: 64px;
     font-weight: bold;
     color: #131313;
-
 }
 
 
@@ -80,9 +79,9 @@ header{
 main,footer{
     max-width: 1440px;
     margin: 0 auto;
-
+}
     /* sec-one */
-}.items{
+.items{
     margin-top: 85px;
     column-gap: 50px;
     display: flex;
@@ -170,7 +169,7 @@ footer{
     padding:30px;
     margin-bottom: 20px;
 }
-.cont > h3{
+.cont #left h3{
     border-left: 5px #FF900E;
 }
 
@@ -184,9 +183,6 @@ footer{
     font-size: 65;
     font-weight: bold;
 
-}
-.experience{
-    
 }
 .btnn{
     color: #FFFFFF;
@@ -207,7 +203,7 @@ footer{
 }
 
 
-/* header response */
+/*  response */
 @media screen and (max-width:576px) {
    .navber{
     flex-direction: column-reverse;
@@ -215,7 +211,7 @@ footer{
    .nav-items ul li{
     margin-right: 15px;
    }
-   .banner-image {
+   .banner-image img{
     width: 100%;
    }
 
@@ -232,6 +228,21 @@ main{
 }
 .cards{
     flex-direction: column;
+    margin-top: 15px;
+    justify-content: center;
 }
+  .sec-tow{
+    flex-direction: column;
+  }
+  .sec-tow .pic img{
+    width: 100%;
+  }
+  .pic .experience{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .sponcer{
+    grid-template-columns: repeat(1,1fr);
+  }
 }
 
